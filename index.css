@@ -1,0 +1,32 @@
+.mobileMenu{
+	display: block;
+}
+
+.desktopMenu{
+	display: none;
+	height: 70px;
+	width: 100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+	.mobileMenu{
+		display: none;
+	}
+
+	.desktopMenu{
+		display: block;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 998px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+}
