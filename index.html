@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="responsive-nav.css">
@@ -9,22 +10,115 @@
 </head>
 <body>
 	<div class="mobileMenu">
-        <img src="img/menu.png" class="img-responsive" onclick="nav.toggle();">
-		<img src="img/logo.png" class="img-responsive">
+        <img src="img/menu.png" class="img-responsive menu-mobile-nav" onclick="nav.toggle();">
+		<img src="img/logo.png" class="img-responsive logo-mobile-nav">
         <nav class="nav-collapse">
           <ul>
-            <li><a href="#">Servicio</a></li>
-            <li><a href="#">Beneficios</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Historia</a></li>
-            <li style="padding-bottom: 20px;"><a href="#">Contactanos</a></li>
+            <li class="nav-item-m"><a href="#" class="nav-text-m">Guía UNAM</a></li>
+            <li class="nav-item-m"><a href="#" class="nav-text-m">Clases en Vivo</a></li>
+            <li class="nav-item-m"><a href="#" class="nav-text-m">Clases Presenciales</a></li>
+            <li class="nav-item-m"><a href="#" class="nav-text-m">Conócenos</a></li>
+            <li class="nav-item-m nav-item-m-sesion"><a href="#" class="nav-text-m nav-text-m-sesion">Inicia Sesión</a></li>
           </ul>
         </nav>
 	</div>
-	<div class="desktopMenu">
-		<img src="img/logo.png" class="img-responsive logo-nav">
-        <div class="nav-item"><h1 class="nav-text">Guía UNAM</h1></div>
+	<div class="row desktopMenu fix">
+        <div class="logo-div">
+            <img src="img/logo.png" class="img-responsive logo-nav">    
+        </div>
+        <div class="menu-items-div">
+            <div class="nav-item-inicia"><h1 class="nav-text-inicia">Inicia Sesión</h1></div>
+        	<div class="nav-item"><h1 class="nav-text">Conócenos</h1></div>
+            <div class="nav-item"><h1 class="nav-text">Clases Presenciales</h1></div>
+            <div class="nav-item"><h1 class="nav-text">Clases en Vivo</h1></div>
+            <div class="nav-item"><h1 class="nav-text">Guía UNAM</h1></div>
+        </div>
 	</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 fix cover-fix">
+                <video autoplay loop poster="img/cover.png" id="bgvid">
+                    <source src="vid/cover.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="cover-div">
+                <div class="cover-container">
+                    <h1 class="cover-titulo">Aprendizaje al alcance de todos</h1>
+                    <h1 class="cover-texto">Lorem ipsum dolor sit amet, consectetur adipisicing </br>elit, sed do eiusmodtempo.</h1>
+                    <button class="cover-btn">¡Empezar Ahora!</button>
+                </div>
+            </div>
+        </div>
+        <div class="row first-div">
+            <div class="col-sm-6 fix" style="background-color: #FFF;">
+                <img src="img/screen_1.png" class="img-responsive screen-img-1">
+            </div>
+            <div class="col-sm-6 fondo-azul fix">
+                <div class="cover-container">
+                    <h1 class="titulo texto-blanco">Todo lo que necesitas para entrar a la UNAM</h1>
+                    <h1 class="texto texto-blanco">La Guía UNAM en línea es fácil de usar y accesible para cualquier persona con acceso a internet</h1>
+                    <button class="conoce">Conoce Más</button>
+                </div>
+            </div>
+        </div>
+        <div class="row first-div">
+            <div class="col-sm-6 fix" id="ndRowImg">
+                <img src="img/screen_2.png" class="img-responsive screen-img-1">
+            </div>
+            <div class="col-sm-6 fondo-verde fix" id="ndRowTxt">
+                <div class="cover-container">
+                    <h1 class="titulo texto-blanco">Ahorra y estudia donde quieras</h1>
+                    <h1 class="texto texto-blanco">Estudia cuando quieras y donde quieras con +300 lecturas y videos con explicaciones paso a paso</h1>
+                    <button class="conoce">Conoce Más</button>
+                </div>
+            </div>
+        </div>
+        <div class="row first-div">
+            <div class="col-sm-6 fix" style="background-color: #FFF;">
+                <img src="img/screen_3.png" class="img-responsive screen-img-1">
+            </div>
+            <div class="col-sm-6 fondo-naranja fix">
+                <div class="cover-container">
+                    <h1 class="titulo texto-blanco">También contamos con clases presenciales</h1>
+                    <h1 class="texto texto-blanco">Contamos con clases particulares para quitarte todas tus dudas, actualmente en Juriquilla, Querétaro</h1>
+                    <button class="conoce">Conoce Más</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 registro">
+                <h1 class="titulo texto-blanco titulo-registro">¡Registrate!</h1>
+                <h1 class="titulo texto-blanco txt-registro" style="font-size: 24px;">Empieza a estudiar hoy mismo</h1>
+                <div style="text-align: center; margin: 0 auto; width: 100%;">
+                    <form style="display: inline-block; width: 100%;">
+                    <div style="width: 100%; margin-bottom: 25px;">
+                        <input type="email" placeholder="Correo Electrónico" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="text-input"></input>
+                    </div>
+                    <input type="submit" class="submit-btn" value="Estudiar" style="margin-bottom: 50px;"></input>
+                </form>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-sm-12" style="margin: 50px 0;">
+                <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+                <img src="img/logo-blanco.png" class="img-responsive center-block" style="width: 150px;">
+                <h1 class="texto texto-blanco">Aprendizaje al alcance</br> de todos</h1>
+            </div>
+            <div class="col-sm-2">
+                <h1 class="texto texto-blanco">Productos</h1>
+            </div>
+            <div class="col-sm-2">
+                <h1 class="texto texto-blanco">Compañia</h1>
+            </div>
+            <div class="col-sm-2">
+                <h1 class="texto texto-blanco">Siguenos</h1>
+            </div>
+            <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
