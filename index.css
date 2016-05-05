@@ -16,14 +16,14 @@ a:hover{
 .mobileMenu{
 	position: relative;
 	display: block;
-	background-color: #f5f5f5;
+	background-color: #fff;
 }
 
 .desktopMenu{
 	display: none;
 	height: 70px;
 	width: 100%;
-	background-color: #f5f5f5;
+	background-color: #fff;
 }
 
 video#bgvid { 
@@ -49,6 +49,12 @@ video#bgvid {
 
 .cover-fix{
 	margin-bottom: -6px;
+}
+
+.menu-items-div{
+	height: 70px;
+	position: relative;
+	float: right;
 }
 
 .menu-mobile-nav{
@@ -112,6 +118,7 @@ video#bgvid {
 	color: #FFF;
 	font-weight: 100;
 	margin-bottom: 35px;
+	line-height: 130%;
 }
 
 .cover-btn{
@@ -140,12 +147,13 @@ video#bgvid {
 .nav-item{
 	width: auto;
 	float: right;
-	margin-right: 32px;
+	height: 70px;
+	padding: 0 18px;
 }
 
 .nav-text{
 	color: #888;
-	margin-top: 25px;
+	margin-top: 22px;
 	font-size: 20px;
 	font-weight: 100;
 }
@@ -173,16 +181,29 @@ video#bgvid {
 }
 
 .nav-item-inicia{
-	width: auto;
 	height: 70px;
 	float: right;
 	padding: 0 28px; 
 	background-color: #03A9F4;
 }
 
+a:hover.nav-item-inicia{
+	height: 70px;
+	float: right;
+	padding: 0 28px; 
+	background-color: #FF9800;
+}
+
+a:hover.nav-text-inicia{
+	color: #FFF;
+	padding-top: 22px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
 .nav-text-inicia{
 	color: #FFF;
-	margin-top: 25px;
+	padding-top: 22px;
 	font-size: 20px;
 	font-weight: 100;
 }

@@ -4,6 +4,11 @@ body, html{
 	font-family: Avenir, Muli;
 }
 
+a:hover{
+	text-decoration: none;
+	color: #03A9F4;
+}
+
 .fix{
 	padding: 0px;
 	margin: 0px;
@@ -58,12 +63,13 @@ body, html{
 .nav-item{
 	width: auto;
 	float: right;
-	margin-right: 32px;
+	height: 70px;
+	padding: 0 18px;
 }
 
 .nav-text{
 	color: #888;
-	margin-top: 25px;
+	margin-top: 22px;
 	font-size: 20px;
 	font-weight: 100;
 }
@@ -91,16 +97,29 @@ body, html{
 }
 
 .nav-item-inicia{
-	width: auto;
 	height: 70px;
 	float: right;
 	padding: 0 28px; 
 	background-color: #03A9F4;
 }
 
+a:hover.nav-item-inicia{
+	height: 70px;
+	float: right;
+	padding: 0 28px; 
+	background-color: #FF9800;
+}
+
+a:hover.nav-text-inicia{
+	color: #FFF;
+	padding-top: 22px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
 .nav-text-inicia{
 	color: #FFF;
-	margin-top: 25px;
+	padding-top: 22px;
 	font-size: 20px;
 	font-weight: 100;
 }
@@ -120,7 +139,7 @@ body, html{
 	position: absolute;
 	height: 500px;
 	width: 100%;
-	background-color: rgba(0,0,0,0.15);
+	background-color: rgba(0,0,0,0.25);
 }
 
 .cover-title{
@@ -135,6 +154,7 @@ body, html{
 	text-align: center;
 	width: 100%;
 	line-height: 130%;
+	font-weight: 300;
 }
 
 .cover-container{
@@ -163,7 +183,7 @@ body, html{
 
 .max{
 	margin-top: 150px;
-	max-width: 950px;
+	max-width: 1024px;
 }
 
 .titulo{
@@ -174,6 +194,7 @@ body, html{
 	text-align: center;
 	margin-bottom: 20px;
 	line-height: 160%;
+	font-weight: 300;
 }
 
 .texto{
@@ -183,6 +204,7 @@ body, html{
 	text-align: center;
 	margin: 0 5%;
 	line-height: 160%;
+	font-weight: 300;
 }
 
 .naranja{
@@ -213,6 +235,15 @@ body, html{
 	color: #FFF;
 }
 
+.col-img{
+	width: 150px;
+	height: 150px;
+}
+
+.divisionD{
+	display: none;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -220,6 +251,31 @@ body, html{
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 998px) {
+
+	.border-cover{
+		border-right: solid 2px #fff;
+	}
+
+	.division{
+		display: none;
+	}
+
+	.cover-text{
+		margin-left: 16px;
+		float: left;
+		width: auto;
+		position: relative;
+		text-align: left;
+	}
+
+	.cover-title{
+		font-size:64px;
+		margin-right: 16px;
+		float: right;
+		width: auto;
+		position: relative;
+		font-weight: 300;
+	}
 
 	.mobileMenu{
 		display: none;
