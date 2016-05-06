@@ -236,8 +236,8 @@ a:hover.nav-text-inicia{
 }
 
 .col-img{
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 }
 
 .divisionD{
@@ -251,6 +251,10 @@ a:hover.nav-text-inicia{
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 998px) {
+
+	.col-img{
+		margin-bottom: 30px;
+	}
 
 	.border-cover{
 		border-right: solid 2px #fff;
@@ -274,7 +278,7 @@ a:hover.nav-text-inicia{
 		float: right;
 		width: auto;
 		position: relative;
-		font-weight: 300;
+		font-weight: 500;
 	}
 
 	.mobileMenu{
