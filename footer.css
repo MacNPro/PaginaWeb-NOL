@@ -1,0 +1,21 @@
+.footer{
+	background-color: #607D8B;
+	padding: 70px 0;
+}
+
+.footer-logo-div{
+	margin-bottom: 50px;
+}
+
+.footer-logo{
+	width: 150px;
+	margin: 0 auto;
+}
+
+.big-txt{
+	font-size: 32px;
+}
+
+.small-txt{
+	font-size: 20px;
+}

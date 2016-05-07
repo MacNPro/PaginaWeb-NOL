@@ -1,0 +1,158 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	font-family: Avenir, Muli;
+}
+
+.mobileMenu{
+	position: relative;
+	display: block;
+	background-color: #f5f5f5;
+}
+
+.desktopMenu{
+	display: none;
+	height: 70px;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.fix{
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-mobile-nav{
+	position: relative;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-left: 15px;
+	margin-top: 15px;
+	padding: 5px;
+}
+
+.logo-mobile-nav{
+	position: relative;
+	height: 70px;
+	margin: 0 auto;
+	padding-right: 63px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logo-div{
+	width: auto;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+.logo-nav{
+	margin-top: 6px;
+	margin-left: 10px;
+	height: 58px;
+	width: auto;
+}
+
+.fix-video{
+	margin: 0 0 -6px 0 ;
+	padding: 0;
+
+}
+
+.nav-item{
+	width: auto;
+	float: right;
+	height: 45px;
+	padding: 0 18px;
+}
+
+.nav-text{
+	color: #888;
+	margin-top: 22px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.nav-text-m{
+	color: #888;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.nav-item-m{
+	padding: 20px;
+}
+
+.nav-text-m-sesion{
+	position: relative;
+	color: #FFF;
+	align-content: center;
+	margin: 0 auto;
+}
+
+.nav-item-m-sesion{
+	background-color: #03A9F4;
+	align-content: center;
+}
+
+.nav-item-inicia{
+	height: 70px;
+	float: right;
+	padding: 0 28px; 
+	background-color: #03A9F4;
+}
+
+a:hover.nav-item-inicia{
+	height: 70px;
+	float: right;
+	padding: 0 28px; 
+	background-color: #FF9800;
+}
+
+a:hover.nav-text-inicia{
+	color: #FFF;
+	padding-top: 22px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.nav-text-inicia{
+	color: #FFF;
+	padding-top: 22px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+	.col-top{
+		width: 60%;
+		margin-left: 20%;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 998px) {
+
+	.mobileMenu{
+		display: none;
+	}
+
+	.desktopMenu{
+		display: block;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+}
+
+
+
+
