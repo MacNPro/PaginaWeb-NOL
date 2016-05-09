@@ -378,11 +378,11 @@ a:hover.nav-text-inicia{
 	}
 
 	video#bgvid { 
-		height: 650px;
+		height: 600px;
 	}
 
 	.cover-div{
-		height: 650px;
+		height: 600px;
 	}
 
 	.titulo{
@@ -418,12 +418,20 @@ a:hover.nav-text-inicia{
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
 
-.big-txt{
-	font-size: 32px;
-}
+	video#bgvid { 
+		height: 650px;
+	}
 
-.small-txt{
-	font-size: 20px;
-}
+	.cover-div{
+		height: 650px;
+	}
+
+	.big-txt{
+		font-size: 32px;
+	}
+
+	.small-txt{
+		font-size: 20px;
+	}
 
 }
