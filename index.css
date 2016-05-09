@@ -418,14 +418,6 @@ a:hover.nav-text-inicia{
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
 
-	video#bgvid { 
-		height: 650px;
-	}
-
-	.cover-div{
-		height: 650px;
-	}
-
 	.big-txt{
 		font-size: 32px;
 	}

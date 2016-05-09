@@ -4,6 +4,11 @@ body, html{
 	font-family: Avenir, Muli;
 }
 
+a:hover{
+	text-decoration: none;
+	color: #03A9F4;
+}
+
 .mobileMenu{
 	position: relative;
 	display: block;
