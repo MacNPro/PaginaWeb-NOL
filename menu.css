@@ -128,11 +128,6 @@ a:hover.nav-text-inicia{
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
-	.col-top{
-		width: 60%;
-		margin-left: 20%;
-	}
-
 }
 
 /* Medium devices (desktops, 992px and up) */

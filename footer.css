@@ -19,3 +19,44 @@
 .small-txt{
 	font-size: 20px;
 }
+
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+	.big-txt{
+		font-size: 32px;
+	}
+
+	.small-txt{
+		font-size: 20px;
+	}
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 998px) {
+
+	.big-txt{
+		font-size: 32px;
+	}
+
+	.small-txt{
+		font-size: 20px;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+	.big-txt{
+	font-size: 32px;
+	}
+
+	.small-txt{
+	font-size: 20px;
+	}
+
+}
