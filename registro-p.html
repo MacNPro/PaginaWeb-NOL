@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="registro-p.css">
     <link rel="stylesheet" href="responsive-nav.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="footer.css">
-	<title>Nivélate Online | Inicio</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<title>Registro | Clases Presenciales</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
@@ -54,72 +54,20 @@
             <a href="guiaunam.html" class="nav-item nav-text">Guía UNAM</a>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 fix-video">
-                <video autoplay loop poster="img/cover.png" id="bgvid">
-                    <source src="vid/cover.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="cover-div">
-                <div class="cover-container">
-                    <h1 class="cover-titulo">Aprendizaje al alcance de todos</h1>
-                    <h1 class="cover-texto">Goza del aprendizaje personalizado. Estudia a tu ritmo y aprende lo que quieras.</h1>
-                    <button class="cover-btn">Estudia Ahora</button>
-                </div>
-            </div>
+    <div class="row fix-row col-row grey">
+        <h1 class="titulo cal-t">Registro Clases Presenciales</h1>
+        <div class="calendario">
+            <form style="padding: 30px 0;">
+                <h1 class="texto wt titulos-r">Nombre del padre o tutor</h1>
+                <input type="text" class="input-element" placeholder="Nombre"></input>
+                <input type="text" class="input-element" placeholder="Apellido"></input>
+                <h1 class="texto wt titulos-r">Nombre del estudiante</h1>
+                <input type="text" class="input-element" placeholder="Nombre"></input>
+                <input type="text" class="input-element" placeholder="Apellido"></input>
+            </form>
         </div>
-        <div class="row first-div">
-            <div class="col-sm-6 fix" style="background-color: #FFF;">
-                <img src="img/screen_1.png" class="img-responsive screen-img-1">
-            </div>
-            <div class="col-sm-6 fondo-azul fix">
-                <div class="cover-container">
-                    <h1 class="titulo texto-blanco">Todo lo que necesitas para entrar a la UNAM</h1>
-                    <h1 class="texto texto-blanco">La Guía UNAM es una plataforma de estudio, cuenta con lecturas, ejercicios, videos y exámenes de simulación</h1>
-                    <button class="conoce">Conoce Más</button>
-                </div>
-            </div>
-        </div>
-        <div class="row first-div">
-            <div class="col-sm-6 fix" id="ndRowImg">
-                <img src="img/screen_2.png" class="img-responsive screen-img-1">
-            </div>
-            <div class="col-sm-6 fondo-verde fix" id="ndRowTxt">
-                <div class="cover-container">
-                    <h1 class="titulo texto-blanco">Ahorra y estudia donde quieras</h1>
-                    <h1 class="texto texto-blanco">Clases en vivo de matemáticas, física y química. Resolviendo problemas paso a paso</h1>
-                    <button class="conoce">Conoce Más</button>
-                </div>
-            </div>
-        </div>
-        <div class="row first-div">
-            <div class="col-sm-6 fix" style="background-color: #FFF;">
-                <img src="img/screen_3.png" class="img-responsive screen-img-1">
-            </div>
-            <div class="col-sm-6 fondo-naranja fix">
-                <div class="cover-container">
-                    <h1 class="titulo texto-blanco">También contamos con clases presenciales</h1>
-                    <h1 class="texto texto-blanco">Resuelve tus dudas con un profesor especialmente para ti. Actualmente en Juriquilla, Querétaro</h1>
-                    <button class="conoce">Conoce Más</button>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 registro">
-                <h1 class="titulo texto-blanco titulo-registro">¡Registrate!</h1>
-                <h1 class="texto texto-blanco txt-registro">Empieza a estudiar hoy mismo</h1>
-                <div style="text-align: center; margin: 0 auto; width: 100%;">
-                    <form style="display: inline-block; width: 100%;">
-                    <div style="width: 100%; margin-bottom: 25px;">
-                        <input type="email" placeholder="Correo Electrónico" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="text-input"></input>
-                    </div>
-                    <input type="submit" class="submit-btn" value="Estudiar" style="margin-bottom: 70px;"></input>
-                </form>
-                </div>
-            </div>
-        </div>
-        <div class="row footer">
+    </div>
+	<div class="row footer">
             <div class="col-sm-12">
                 <div class="col-md-1"></div>
             <div class="col-md-4 footer-logo-div">
@@ -147,7 +95,6 @@
                 <div class="col-md-1"></div>
             </div>
         </div>
-    </div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

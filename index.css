@@ -80,8 +80,8 @@ video#bgvid {
 	border-radius: 8px;
 	padding-top: 6px;
 	padding-bottom: 6px;
-	padding-right: 12px;
-	padding-left: 12px;
+	padding-right: 13px;
+	padding-left: 14px;
 	border: none;
 }
 
@@ -223,6 +223,10 @@ a:hover.nav-text-inicia{
     width: 100%;
     position: relative;
     text-align: center;
+}
+
+.wt{
+	color: #FFF;
 }
 
 .texto-blanco{
@@ -368,6 +372,12 @@ a:hover.nav-text-inicia{
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 998px) {
+
+	.texto{
+		width: 76%;
+		margin-left: 12%;
+		margin-right: 12%;
+	}
 
 	.cover-texto{
 		width: 600px;

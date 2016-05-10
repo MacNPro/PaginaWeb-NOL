@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="responsive-nav.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="footer.css">
-	<title>Guía UNAM</title>
+	<title>Nivelate Online | Guía UNAM</title>
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -31,29 +31,29 @@
 <body>
 	<div class="mobileMenu">
         <img src="img/menu.png" class="img-responsive menu-mobile-nav" onclick="nav.toggle();">
-		<a href="index.html"><img src="img/logo.png" class="img-responsive logo-mobile-nav"></a>
+        <a href="index.html"><img src="img/logo.png" class="img-responsive logo-mobile-nav"></a>
         <nav class="nav-collapse">
           <ul>
-            <li class="nav-item-m"><a href="#" class="nav-text-m">Guía UNAM</a></li>
+            <li class="nav-item-m"><a href="guiaunam.html" class="nav-text-m">Guía UNAM</a></li>
             <li class="nav-item-m"><a href="clases-v.html" class="nav-text-m">Clases en Vivo</a></li>
-            <li class="nav-item-m"><a href="#" class="nav-text-m">Clases Presenciales</a></li>
-            <li class="nav-item-m"><a href="#" class="nav-text-m">Conócenos</a></li>
-            <li class="nav-item-m nav-item-m-sesion"><a href="#" class="nav-text-m nav-text-m-sesion">Inicia Sesión</a></li>
+            <li class="nav-item-m"><a href="clases-p.html" class="nav-text-m">Clases Presenciales</a></li>
+            <li class="nav-item-m"><a href="conocenos.html" class="nav-text-m">Conócenos</a></li>
+            <li class="nav-item-m nav-item-m-sesion"><a href="inicia sesion.html" class="nav-text-m nav-text-m-sesion">Inicia Sesión</a></li>
           </ul>
         </nav>
-	</div>
-	<div class="row desktopMenu fix">
+    </div>
+    <div class="desktopMenu">
         <div class="logo-div">
             <a href="index.html"><img src="img/logo.png" class="img-responsive logo-nav"></a>
         </div>
         <div class="menu-items-div">
-            <a href="guiaunam.html"class="nav-item-inicia nav-text-inicia">Inicia Sesión</a>
-        	<a href="guiaunam.html"class="nav-item nav-text">Conócenos</a>
-            <a href="guiaunam.html"class="nav-item nav-text">Clases Presenciales</a>
+            <a href="inicia sesion.html"class="nav-item-inicia nav-text-inicia">Inicia Sesión</a>
+            <a href="conocenos.html"class="nav-item nav-text">Conócenos</a>
+            <a href="clases-p.html"class="nav-item nav-text">Clases Presenciales</a>
             <a href="clases-v.html"class="nav-item nav-text">Clases en Vivo</a>
             <a href="guiaunam.html" class="nav-item nav-text">Guía UNAM</a>
         </div>
-	</div>
+    </div>
 	<div class="container-fluid">
 		<div class="row cover-div">
 			<div class="col-lg-12 black-div">
@@ -75,18 +75,18 @@
 			<div class="max center-block">
 				<div class="col-md-4 block-div">
 					<img src="img/libro.png" class="img-relative center-block col-img">
-					<h1 class="titulo naranja">Lecturas</h1>
-					<h1 class="texto col-top">Estudia con lecturas sensillas y claras ademas de explicaciones paso a paso</h1>
+					<h1 class="titulo naranja">Estudia</h1>
+					<h1 class="texto col-top">Textos claros, ejemplos y explicaciones paso a paso</h1>
 				</div>
 				<div class="col-md-4 block-div">
 					<img src="img/cerebro.png" class="img-relative center-block col-img">
-					<h1 class="titulo naranja">Exámenes</h1>
-					<h1 class="texto col-top">Ponte a prueba con los exámenes por materia y exámenes simulación</h1>
+					<h1 class="titulo naranja">Practica</h1>
+					<h1 class="texto col-top">Ejercicios, exámenes por materia y exámenes simulación</h1>
 				</div>
 				<div class="col-md-4 block-div">
 					<img src="img/foco.png" class="img-relative center-block col-img">
-					<h1 class="titulo naranja">Experiencia</h1>
-					<h1 class="texto col-top">Vive una el aprendizaje como nunca y disfruta viendo los resultados.</h1>
+					<h1 class="titulo naranja">Aprende</h1>
+					<h1 class="texto col-top">Mide tu progreso y refuerza las materias que lo necesiten</h1>
 				</div>
 			</div>
 		</div>
@@ -102,7 +102,7 @@
 		</div>
 		<div class="row grey div-v">
 			<div class="maxT center-block">
-				<h1 class="titulo tv">Conóce la experiencia Guía UNAM</h1>
+				<h1 class="titulo tv">Conoce la experiencia Guía UNAM</h1>
 				<div class="col-md-3 col-sm-6">
 					<div class="titulo-v-div">
 						<h1 class="titulo wt">App Android</h1>
@@ -113,8 +113,9 @@
 						<h1 class="texto list-t center-block">Medidor de progreso</h1>
 						<h1 class="texto list-t center-block" style="margin-bottom: 0px;">Proceso de Admisión</h1>
 					</div>
-					<div class="precio-v-div">
-						<h1 class="titulo wt">$59.99</h1>
+					<div class="btn-v-div" onclick="android();">
+						<h1 class="titulo wt line-down">$59.99</h1>
+						<h1 class="titulo wt line-top">Descárgala</h1>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
@@ -127,8 +128,9 @@
 						<h1 class="texto list-t center-block">Medidor de progreso</h1>
 						<h1 class="texto list-t center-block" style="margin-bottom: 0px;">Compatible con cualquier navegador</h1>
 					</div>
-					<div class="precio-v-div">
-						<h1 class="titulo wt">$149.99</h1>
+					<div class="btn-v-div">
+						<h1 class="titulo wt line-down">$149.99</h1>
+						<h1 class="titulo wt line-top">Próximamente</h1>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
@@ -141,8 +143,9 @@
 						<h1 class="texto list-t center-block">App Web (Próximamente)</h1>
 						<h1 class="texto list-t center-block" style="margin-bottom: 0px;">Videos Explicativos</h1>
 					</div>
-					<div class="precio-v-div">
-						<h1 class="titulo wt">$179.99</h1>
+					<div class="btn-v-div">
+						<h1 class="titulo wt line-down">$179.99</h1>
+						<h1 class="titulo wt line-top">Próximamente</h1>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
@@ -154,8 +157,9 @@
 						<h1 class="texto list-t center-block">Curso de 8hrs clases en vivo</h1>
 						<h1 class="texto list-t center-block" style="margin-bottom: 0px;">1hra de clases particulares</h1>
 					</div>
-					<div class="precio-v-div">
-						<h1 class="titulo wt">$499.99</h1>
+					<div class="btn-v-div">
+						<h1 class="titulo wt line-down">$599.99</h1>
+						<h1 class="titulo wt line-top">Próximamente</h1>
 					</div>
 				</div>
 			</div>
@@ -169,30 +173,35 @@
             </div>
             <div class="col-md-2 col-sm-4">
                 <h1 class="texto wt big-txt center-block">Productos</h1>
-                <h1 class="texto wt small-txt center-block">Guía UNAM</h1>
-                <h1 class="texto wt small-txt center-block">Clases Presenciales</h1>
-                <h1 class="texto wt small-txt center-block">Clases en Vivo</h1>
+                <a href="guiaunam.html"><h1 class="texto wt small-txt center-block">Guía UNAM</h1></a>
+                <a href="clases-p.html"><h1 class="texto wt small-txt center-block">Clases Presenciales</h1></a>
+                <a href="clases-v.html"><h1 class="texto wt small-txt center-block">Clases en Vivo</h1></a>
             </div>
             <div class="col-md-2 col-sm-4">
                 <h1 class="texto wt big-txt center-block">Compañia</h1>
-                <h1 class="texto wt small-txt center-block">Contáctanos</h1>
-                <h1 class="texto wt small-txt center-block">Conócenos</h1>
-                <h1 class="texto wt small-txt center-block">Misión y Visión</h1>
+                <a href="conocenos.html"><h1 class="texto wt small-txt center-block">Contáctanos</h1></a>
+                <a href="conocenos.html"><h1 class="texto wt small-txt center-block">Conócenos</h1></a>
+                <a href="conocenos.html"><h1 class="texto wt small-txt center-block">Misión y Visión</h1></a>
             </div>
             <div class="col-md-2 col-sm-4">
                 <h1 class="texto wt big-txt center-block">Siguenos</h1>
-                <h1 class="texto wt small-txt center-block">Facebook</h1>
+                <a href="https://www.facebook.com/cursoingresounam/?ref=aymt_homepage_panel"><h1 class="texto wt small-txt center-block">Facebook</h1>
                 <h1 class="texto wt small-txt center-block">Twitter</h1>
-                <h1 class="texto wt small-txt center-block">Instagram</h1>
+                <h1 class="texto wt small-txt center-block">Instagram</h1></a>
             </div>
-            <div class="col-md-1"></div>
+            	<div class="col-md-1"></div>
             </div>
         </div>
+    </div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="responsive-nav.min.js"></script>
-<script>var nav = responsiveNav(".nav-collapse");</script>
+<script>var nav = responsiveNav(".nav-collapse");
+		function android(){
+			window.location.href = "https://play.google.com/store/apps/details?id=com.institutofuentes.android.guiaunamvg&hl=es_419";
+		}
+</script>
 
 </body>
 </html>

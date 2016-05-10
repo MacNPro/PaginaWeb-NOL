@@ -1,0 +1,129 @@
+.fix{
+	padding: 0px;
+	margin: 0px;
+}
+
+.fix-row{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.titulo{
+	width: 90%;
+	margin: 0 5%; 
+	font-size: 28px;
+	color: #999;
+	text-align: center;
+	margin-bottom: 20px;
+	line-height: 160%;
+	font-weight: 300;
+}
+
+.texto{
+	width: 90%;
+	font-size: 20px;
+	color: #999;
+	text-align: center;
+	line-height: 160%;
+	font-weight: 300;
+}
+
+.wt{
+	color: #FFF;
+}
+
+.cover-img{
+	height: 500px;
+	background-image: url(img/equipo.jpg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  	background-size: cover;
+  	background-position: 50% 20%;
+}
+
+.cover-color{
+	background-color: rgba(0,150,136,0.7);
+	height: 500px;
+	width: 100%;
+}
+
+.cover-content{
+	width: 90%;
+	height: auto;
+	position: absolute;
+  	top: 50%; left: 50%;
+  	transform: translate(-50%,-50%);
+}
+
+.col-row{
+	padding: 100px 0;
+}
+
+.col-img{
+	height: 130px;
+	widows: 130px;
+}
+
+.max-w{
+	max-width: 1024px;
+	height: auto;
+}
+
+.naranja{
+	color: #26A69A;
+}
+
+.col-t{
+	padding: 20px 0;
+}
+
+.calendario{
+	height: 300px;
+	width: 88%;
+	margin: 0 auto;
+	background-color: #555;
+}
+
+.grey{
+	background-color: #f5f5f5;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 998px) {
+
+	.calendario{
+		width: 80%;
+		height: 500px;
+	}
+
+	.titulo{
+		font-size: 36px;
+	}
+
+	.cal-t{
+		padding-bottom: 40px;
+	}
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+	.calendario{
+		width: 60%;
+		height: 500px;
+	}
+
+	.cover-txt{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+}
