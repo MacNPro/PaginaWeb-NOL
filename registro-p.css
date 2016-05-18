@@ -81,7 +81,7 @@
 .calendario{
 	width: 88%;
 	margin: 0 auto;
-	background-color: #E53935;
+	background-color: #FB8C00;
 	border-radius: 25px;
 }
 
@@ -93,13 +93,31 @@
 	border-radius: 10px;
 	border: solid 0px #fff;
 	height: 45px;
-	margin: 15px 4%;
-	width: 40%;
+	margin: 10px  4% 35px 4%;
 	text-align: center;
 }
 
 .titulos-r{
-	width: auto; margin-left: 45px; text-align: left;
+	width: auto; 
+	margin-left: 45px;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.form-div{
+	width: 100%;
+	height: auto;
+}
+
+.sub-btn{
+	background-color: #FFF;
+	border-radius: 10px;
+	border: solid 0px #fff;
+	height: 55px;
+	width: 40%;
+	margin: 20px 30% 0 30%;
+	color: #FB8C00;
 }
 
 /* Small devices (tablets, 768px and up) */
