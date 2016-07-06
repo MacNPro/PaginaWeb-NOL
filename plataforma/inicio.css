@@ -1,0 +1,84 @@
+body{
+	background-color: #f5f5f5;
+}
+
+.subtitulo{
+	width: 100%;
+	text-align: center;
+	font-weight: 200;
+	margin: 70px 0;
+	font-size: 1.7em;
+}
+
+.test{
+	background-color: #999;
+}
+
+.caja-materias{
+	margin-left: .5%;
+	margin-right: .5%;
+	width: 19%;
+	padding: 0;
+	background-color: #FFF;
+}
+
+.fondo-titulo-biologia{
+	background-color: #66BB6A;
+	width: 100%;
+	height: 45px;
+}
+
+.fondo-titulo-espanol{
+	background-color: #FFA726;
+	width: 100%;
+	height: 45px;
+}
+
+.fondo-titulo-filosofia{
+	background-color: #29B6F6;
+	width: 100%;
+	height: 45px;
+}
+
+.fondo-titulo-geografia{
+	background-color: #AB47BC;
+	width: 100%;
+	height: 45px;
+}
+
+.fondo-titulo-historiau{
+	background-color: #EF5350;
+	width: 100%;
+	height: 45px;
+}
+
+.titulo-caja{
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: 200;
+	height: 45px;
+	position: absolute;
+	bottom: -55%;
+}
+
+.texto-caja{
+	font-size: 1em;
+	width: 100%;
+	text-align: center;
+	font-weight: 200;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.img-caja{
+	margin-top: 25px;
+	width: 32px;
+	height: 32px;
+}
+
+.division-caja{
+	border-right: solid 1px #CFD8DC;
+}
+
+
+
